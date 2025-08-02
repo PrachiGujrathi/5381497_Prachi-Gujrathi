@@ -1,0 +1,143 @@
+    1  ls
+    2  date
+    3  bc
+    4  date
+    5  bc
+    6  date
+    7  bc
+    8  sudo apt update
+    9  sudo apt upgrade
+   10  clear
+   11  echo $SHELL
+   12  printenv SHELL
+   13  date
+   14  sudo apt update
+   15  sudo apt upgrade
+   16  echo $SHELL
+   17  printenv SHELL
+   18  whoami
+   19  whatis echo
+   20  whatis printenv
+   21  whatis whoami
+   22  whatis cat
+   23  whereis cat
+   24  whereis gcc
+   25  info cat
+   26  date
+   27  date "+%D"
+   28  date "+%D %T"
+   29  date "+%Y-%m-%d"
+   30  date "+%Y/%m/%d"
+   31  date "+%A %B %d %Y %T"
+   32  date --date "tomorrow"
+   33  date --date "2 years ago"
+   34  man date
+   35  clear
+   36  cal
+   37  sudo apt install ncal
+   38  cal
+   39  cal 7 2025
+   40  cal 5 2025
+   41  cal 2025
+   42  cal -3 2025
+   43  cal 3 2025
+   44  cal 3
+   45  clear
+   46  bc
+   47  bc <<< "12/5"
+   48  clear
+   49  bc <<< "12/5"
+   50  bc <<< "scale=2; 12/5"
+   51  bc <<< "2>5"
+   52  bc <<< "2^10"
+   53  uname
+   54  uname-o
+   55  uname -o
+   56  uname -i
+   57  uname -n
+   58  uname -v
+   59  uname -s
+   60  uname -m
+   61  uname -r
+   62  uname -a
+   63  clear
+   64  echo "Welcome to Linux"
+   65  echo -e "Hello \t World"
+   66  echo -n "Hello World"
+   67  echo "Welcome to \"Linux\""
+   68  echo `date`
+   69  echo "This is
+   70  Linux
+   71  Training
+   72  for
+   73  Notchup
+   74  July 2025"
+   75  echo "This is Linux Training for Notchup July 2025"
+   76  printf "Linux training"
+   77  printf "My shell is %s\n" $SHELL
+   78  clear
+   79  seq 1 10
+   80  seq 1 3 10
+   81  seq 10 -1 1
+   82  seq 20 -2 0
+   83  clear
+   84  q
+   85  clear
+   86  seq -s " " 10
+   87  seq -s " " 5 10
+   88  seq -s 5 10
+   89  seq -s " " 5 3 50
+   90  rev <<< Linux
+   91  history
+   92  date --date "2 years ago"
+   93  echo $?
+   94  false
+   95  echo $?
+   96  ls
+   97  nano newfile
+   98  mkdir new
+   99  cd new
+  100  mkdir new1 new2
+  101  history> my_linux_commands.txt
+  102  cat my_linux_commands.txt
+  103  ls
+  104  cd
+  105  cd-
+  106  mkdir -p d1/d2
+  107  ls
+  108  ls -l
+  109  ls -a
+  110  ls -R
+  111  nano demo
+  112  wc demo
+  113  touch newfile.txt
+  114  nano newfile.txt
+  115  cat newfile.txt
+  116  cat newfile.txt > output.txt
+  117  cat output.txt
+  118  cat -n demo
+  119  ls
+  120  mkdir training
+  121  cp newfile output.txt training
+  122  cd training
+  123  ls
+  124  cd
+  125  ls
+  126  ls -R
+  127  cp -r new training
+  128  ls
+  129  cd training
+  130  ls
+  131  cd new
+  132  ls
+  133  cd
+  134  mv out training
+  135  ls
+  136  cat my_linux_commands.txt
+  137  history
+  138  ls ~ | grep my_linux_commands.txt
+  139  history > ~/Desktop/my_linux_commands.txt
+  140  ls ~/Desktop/
+  141  ls ~
+  142  clear
+  143  history > ~/my_linux_commands.txt
